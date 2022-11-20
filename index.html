@@ -78,9 +78,13 @@
 					To : "hashannotes@gmail.com",
 					From : document.getElementById("email").value,
 					Subject : "New Contact Form Enquiry",
-					Body : "And this is the body"
+					Body : "Name: " + document.getElementById("Name").value
+						+ "<br> Email: " + document.getElementById("Email").value
+						+ "<br> Continent: " + document.getElementById("Continent").value
+						+ "<br> Country: " + document.getElementById("Country").value
+						+ "<br> Comment: " + document.getElementById("Comment").value
 				}).then(
-				  message => alert(message)
+				  message => alert(Message Sent Succesfully)
 				);
 			}
 		</script>
