@@ -46,28 +46,16 @@
 		
 		<div class="background-image"><br><br>
 		
-		<div class="container">
-			
-			<h3><font color="white"><b><i>Enter your review here.</b></i></font></h3>
-			<br><center>
-			<form action="mail.php" method="post">
-				<input type="text" name="Name" placeholder="Full Name" required><br><br>
-				<input type="text" name="Email" placeholder="Email" required><br><br>
-				<select name="Continent">
-					<option>Africa</option>
-					<option>Antarctica</option>
-					<option>Asia</option>
-					<option>Australia</option>
-					<option>Europe</option>
-					<option>North America</option>
-					<option>South America</option>
-				</select><br>
-				<input type="text" name="Country" placeholder="Country" required><br><br>
-				<textarea name="Comment" placeholder="Comment" required></textarea><br><br>
-				<button type="post">Send</button>
-			</form>
-			</center>
-		</div>	
+		<center>
+		<div class="projects">
+		<font size=5 color=white> My Projects </font><br><br>
+		</div>
+		<div class="sites">
+		<a href="https://ephysicsproto2.000webhostapp.com/index.html">
+		<img src="webcover.jpg" width=500 height=300>
+			<font size=3 color="white">E-Physics</font>
+		</div>
+		</center>
 			
 		
 		
@@ -116,6 +104,17 @@
 	.container {
 	background-size: cover;
 	height: 100vh;
+	}
+	.projects {
+	background: #15c25a;
+	border-radius: 15px 50px;
+	opacity:0.9;
+	}
+	.sites {
+	border-radius: 15px 50px;
+	}
+	.sites a:link {
+	text-decoration: none;
 	}
 	
 </style>
